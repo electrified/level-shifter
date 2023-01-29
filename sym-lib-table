@@ -1,7 +1,4 @@
 (sym_lib_table
-  (lib (name rc2014-icecore)(type Legacy)(uri /home/ed/kicad/rc2014-icecore/rc2014-icecore.lib)(options "")(descr ""))
-  (lib (name rc2014-icecore-cache)(type Legacy)(uri /home/ed/kicad/rc2014-icecore/rc2014-icecore-cache.lib)(options "")(descr ""))
-  (lib (name rc2014-icecore-rescue)(type Legacy)(uri /home/ed/kicad/rc2014-icecore/rc2014-icecore-rescue.lib)(options "")(descr ""))
-  (lib (name blackedge)(type Legacy)(uri /home/ed/kicad/blackedge-kicad/symbols/BlackEdge.lib)(options "")(descr ""))
-  (lib (name 4x1md)(type Legacy)(uri /home/ed/dev/github/4x1md/kicad_libraries/Custom_Symbols/Custom_Symbols_Library.lib)(options "")(descr ""))
+  (lib (name "blackedge")(type "KiCad")(uri "${KIPRJMOD}/../blackedge-kicad/symbols/BlackEdge.kicad_sym")(options "")(descr ""))
+  (lib (name "rc2014-icecore")(type "KiCad")(uri "${KIPRJMOD}/rc2014-icecore.kicad_sym")(options "")(descr ""))
 )
