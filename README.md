@@ -1,6 +1,6 @@
 ## Board to interface 3.3v FPGA board with RC2014
 
-BOM
+## BOM
 
 5x SN74LVCC3245ADW
 
@@ -20,7 +20,11 @@ sigrok-cli --driver saleae-logic16 --config samplerate=20Mhz --channels 0=D0,1=D
 
 Silkscreen blunders
 
-On the fpga connector, silscreen for M1 and RD should be swapped
+On the fpga connector, silkscreen for M1 and RD should be swapped
 
+## License
 
-https://bitbucket.org/gdevic/a-z80/src/6d6bd4838181ea9e088e6c1f7c68e4f11ce58183/host/basic_de1/basic_de1_fpga.sv?at=master&fileviewer=file-view-default
+Copyright Ed Brindley 2020.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2
+You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions
